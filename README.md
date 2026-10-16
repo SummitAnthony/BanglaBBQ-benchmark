@@ -1,5 +1,7 @@
 # BanglaBBQ
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23415895.svg)](https://doi.org/10.5281/zenodo.23415895)
+
 BanglaBBQ is a bias benchmark for question answering in the Bangladeshi context, in parallel English and
 Bangla, in the format of BBQ (Parrish et al., 2022) and its KoBBQ and PakBBQ adaptations. It has two parts:
 
