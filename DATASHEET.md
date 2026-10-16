@@ -2,7 +2,7 @@
 
 This datasheet answers the questions of *Datasheets for Datasets* (Gebru et al., 2021) and adds the
 elements of a data statement (Bender and Friedman, 2018). It covers the release of the paper
-"BanglaBBQ: A Bias Benchmark for Question Answering in the Bangladeshi Context" (Gomes, Tasnia, Rahman
+"BanglaBBQ: A Bias Benchmark for Question Answering in the Bangladeshi Context" (Gomes, Rahman, Tasnia
 and Suhita, 2026). Most numbers below can be recomputed from a file in this release, which is named. The
 exceptions come from runs or material that are not released: the 200-record pilot of the two
 Bangla-specific models (section 6); the per-call outputs of the Unknown wording pilot (only its report,
@@ -41,7 +41,7 @@ for its newly added templates, and KoBBQ calls such templates newly created, NC)
 a public document about Bangladesh, with parallel English and Bangla text. It also adapts BBQ's own
 templates to Bangladesh (`bbq_dt_tm/`, end of section 2).
 
-**Who created it, and who funded it?** Sumit Anthony Gomes, Taeeba Tasnia, Yasin Rahman and Faiza Nooren
+**Who created it, and who funded it?** Sumit Anthony Gomes, Yasin Rahman, Taeeba Tasnia and Faiza Nooren
 Suhita (BRAC University, Dhaka, Bangladesh). The work received no funding.
 
 ## 2. Composition
@@ -706,5 +706,5 @@ transformers.
 - Jin, J. et al. (2024). KoBBQ: Korean Bias Benchmark for Question Answering. TACL 12.
 - Hashmat, A., Mirza, M. A. and Raza, A. A. (2025). PakBBQ: A Culturally Adapted Bias Benchmark for
   QA. Proceedings of EMNLP 2025.
-- Gomes, S. A., Tasnia, T., Rahman, Y. and Suhita, F. N. (2026). BanglaBBQ: A Bias Benchmark for Question
+- Gomes, S. A., Rahman, Y., Tasnia, T. and Suhita, F. N. (2026). BanglaBBQ: A Bias Benchmark for Question
   Answering in the Bangladeshi Context. Preprint.

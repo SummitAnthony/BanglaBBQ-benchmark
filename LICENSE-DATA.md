@@ -37,7 +37,7 @@ If you do, you must:
 
 The data comes with no warranty.
 
-Citation: Sumit Anthony Gomes, Taeeba Tasnia, Yasin Rahman and Faiza Nooren Suhita (2026). BanglaBBQ:
+Citation: Sumit Anthony Gomes, Yasin Rahman, Taeeba Tasnia and Faiza Nooren Suhita (2026). BanglaBBQ:
 A Bias Benchmark for Question Answering in the Bangladeshi Context. Preprint.
 <https://github.com/SummitAnthony/BanglaBBQ-benchmark>
 

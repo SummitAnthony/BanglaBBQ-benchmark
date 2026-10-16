@@ -21,7 +21,7 @@ Bangla, in the format of BBQ (Parrish et al., 2022) and its KoBBQ and PakBBQ ada
 
 This repository holds the data, the aggregate validation outcome, the raw outputs of four models (Qwen3-4B,
 Qwen3-8B, GPT-4.1-mini and Gemini 2.5 Flash) and the code behind the paper *BanglaBBQ: A Bias Benchmark for
-Question Answering in the Bangladeshi Context* by Sumit Anthony Gomes, Taeeba Tasnia, Yasin Rahman and Faiza
+Question Answering in the Bangladeshi Context* by Sumit Anthony Gomes, Yasin Rahman, Taeeba Tasnia and Faiza
 Nooren Suhita (BRAC University, Dhaka).
 
 > **Content warning and intended use.** The data states harmful stereotypes about real groups in Bangladesh,
@@ -280,7 +280,7 @@ If you use BanglaBBQ, please cite the paper (the arXiv identifier will be added 
 ```bibtex
 @misc{gomes2026banglabbq,
   title  = {{BanglaBBQ}: A Bias Benchmark for Question Answering in the {B}angladeshi Context},
-  author = {Gomes, Sumit Anthony and Tasnia, Taeeba and Rahman, Yasin and Suhita, Faiza Nooren},
+  author = {Gomes, Sumit Anthony and Rahman, Yasin and Tasnia, Taeeba and Suhita, Faiza Nooren},
   year   = {2026},
   note   = {Preprint},
   url    = {https://github.com/SummitAnthony/BanglaBBQ-benchmark}
