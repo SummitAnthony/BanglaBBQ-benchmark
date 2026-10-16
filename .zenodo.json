@@ -1,0 +1,14 @@
+{
+  "title": "BanglaBBQ: A Bias Benchmark for Question Answering in the Bangladeshi Context",
+  "upload_type": "dataset",
+  "description": "<p>BanglaBBQ is a bias benchmark for question answering in the Bangladeshi context, in parallel English and Bangla, in the format of BBQ (Parrish et al., 2022) and its KoBBQ and PakBBQ adaptations. It has two parts: 466 newly authored templates in five Bangladesh-specific categories (marital status, age and political perception, regional origin, educational background, and mental-health status), and 140 BBQ templates adapted to Bangladesh.</p><p>This record holds the data, the aggregate validation outcome, the raw outputs of four models (Qwen3-4B, Qwen3-8B, GPT-4.1-mini and Gemini 2.5 Flash) and the code behind the paper.</p><p><strong>Content warning and intended use.</strong> The data states harmful stereotypes about real groups in Bangladesh. It exists only to audit language models. Do not use it to train or fine-tune models to reproduce these stereotypes. A low bias score on it is not proof that a system is unbiased.</p>",
+  "creators": [
+    {"name": "Gomes, Sumit Anthony", "affiliation": "BRAC University"},
+    {"name": "Tasnia, Taeeba", "affiliation": "BRAC University"},
+    {"name": "Rahman, Yasin", "affiliation": "BRAC University"},
+    {"name": "Suhita, Faiza Nooren", "affiliation": "BRAC University"}
+  ],
+  "keywords": ["bias", "question answering", "Bangla", "Bangladesh", "benchmark"],
+  "license": "cc-by-4.0",
+  "notes": "Licensing: the data is released under CC BY 4.0 and the code under MIT (LICENSE), with exceptions listed in LICENSE-DATA.md: the GPT-4.1-mini and Gemini 2.5 Flash model outputs are released for research use and are not covered by CC BY 4.0; the BBQ-derived scripts remain under BBQ's CC BY 4.0 licence; source quotations remain the property of their publishers."
+}
