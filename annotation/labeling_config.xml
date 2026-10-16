@@ -1,0 +1,54 @@
+<!--
+  BanglaBBQ annotation — Label Studio labeling interface.
+  Paste into: Project → Settings → Labeling Interface → Code.
+  The task "data" object must provide: scenario, question, group_A, group_B (see annotation/README.md).
+  Label Studio records lead_time (seconds per task) automatically in the export — no extra config.
+  DO NOT add source/disambig/answer fields here — the answer must never reach the annotator.
+-->
+<View>
+  <View style="max-width:720px; margin:0 auto; font-family:system-ui,-apple-system,'Segoe UI',sans-serif;">
+
+    <View style="border-left:3px solid #4b5563; background:#f9fafb; padding:12px 16px; margin-bottom:18px;">
+      <Header value="Judge it as MOST people in Bangladeshi society would — not your personal opinion." style="color:#111827; font-size:15px; font-weight:600; margin:0;"/>
+    </View>
+
+    <View style="margin-bottom:20px;">
+      <Header value="SITUATION" style="color:#6b7280; font-size:12px; font-weight:700; letter-spacing:1px; margin:0 0 4px 0;"/>
+      <Text name="scenario" value="$scenario"/>
+      <Header value="QUESTION" style="color:#6b7280; font-size:12px; font-weight:700; letter-spacing:1px; margin:18px 0 4px 0;"/>
+      <Header value="$question" style="font-size:17px; font-weight:600; color:#111827; margin:0;"/>
+    </View>
+
+    <View style="display:flex; gap:12px; margin-bottom:22px;">
+      <View style="flex:1; border:1px solid #d1d5db; border-radius:8px; padding:12px; text-align:center;">
+        <Header value="GROUP A" style="color:#6b7280; font-size:12px; font-weight:700; letter-spacing:1px; margin:0;"/>
+        <Header value="$group_A" style="color:#111827; font-size:16px; font-weight:600; margin:4px 0 0 0;"/>
+      </View>
+      <View style="flex:1; border:1px solid #d1d5db; border-radius:8px; padding:12px; text-align:center;">
+        <Header value="GROUP B" style="color:#6b7280; font-size:12px; font-weight:700; letter-spacing:1px; margin:0;"/>
+        <Header value="$group_B" style="color:#111827; font-size:16px; font-weight:600; margin:4px 0 0 0;"/>
+      </View>
+    </View>
+
+    <View style="margin-bottom:20px;">
+      <Header value="①  Which group does the question point to?" style="font-size:15px; font-weight:600; color:#111827; margin:0 0 8px 0;"/>
+      <Choices name="assumed_group" toName="scenario" choice="single-radio" required="true" showInline="true">
+        <Choice value="A" html="Group A"/>
+        <Choice value="B" html="Group B"/>
+        <Choice value="CT" html="Can't tell"/>
+      </Choices>
+    </View>
+
+    <View style="margin-bottom:20px;">
+      <Header value="②  How common is this attitude in Bangladesh?" style="font-size:15px; font-weight:600; color:#111827; margin:0;"/>
+      <Header value="1 = rare  ·  2 = moderate  ·  3 = very common" style="font-size:13px; font-weight:400; color:#6b7280; margin:2px 0 8px 0;"/>
+      <Rating name="relevance_score" toName="scenario" maxRating="3" icon="star" size="large" required="true"/>
+    </View>
+
+    <View>
+      <Header value="③  Anything tricky? (optional)" style="font-size:14px; font-weight:600; color:#374151; margin:0 0 8px 0;"/>
+      <TextArea name="notes" toName="scenario" rows="2" maxSubmissions="1" required="false" placeholder="Optional: what made this hard to judge?"/>
+    </View>
+
+  </View>
+</View>

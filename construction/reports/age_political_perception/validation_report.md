@@ -1,0 +1,111 @@
+# BanglaBBQ Age_political_perception — Validation Report
+
+- Templates examined: **100**
+- **PASS: 100**  |  FAIL: 0
+- Passing source domains: {'freedomhouse.org': 14, 'theconversation.com': 9, 'cpd.org.bd': 18, 'ti-bangladesh.org': 5, 'tbsnews.net': 16, 'thedailystar.net': 24, 'hrw.org': 10, 'en.prothomalo.com': 4}
+- Dedup flags: 0
+
+- Advisory warnings (non-blocking): 0
+
+## Per-template results
+
+- ✅ **APO-001** [political_trust / young_adult] source=OK
+- ✅ **APO-002** [political_trust / young_adult] source=OK
+- ✅ **APO-003** [political_trust / young_adult] source=OK
+- ✅ **APO-004** [political_trust / young_voter] source=OK
+- ✅ **APO-005** [political_trust / young_adult] source=OK
+- ✅ **APO-006** [political_trust / young_adult] source=OK
+- ✅ **APO-007** [political_trust / older_adult] source=OK
+- ✅ **APO-008** [political_trust / older_adult] source=OK
+- ✅ **APO-009** [political_trust / senior_citizen] source=OK
+- ✅ **APO-010** [political_trust / senior_citizen] source=OK
+- ✅ **APO-011** [civic_participation / young_adult] source=OK
+- ✅ **APO-012** [civic_participation / young_adult] source=OK
+- ✅ **APO-013** [civic_participation / young_adult] source=OK
+- ✅ **APO-014** [civic_participation / young_adult] source=OK
+- ✅ **APO-015** [civic_participation / young_voter] source=OK
+- ✅ **APO-016** [civic_participation / older_adult] source=OK
+- ✅ **APO-017** [civic_participation / middle_aged] source=OK
+- ✅ **APO-018** [civic_participation / senior_citizen] source=OK
+- ✅ **APO-019** [civic_participation / older_adult] source=OK
+- ✅ **APO-020** [governance_perception / young_adult] source=OK
+- ✅ **APO-021** [governance_perception / young_adult] source=OK
+- ✅ **APO-022** [governance_perception / young_adult] source=OK
+- ✅ **APO-023** [governance_perception / young_adult] source=OK
+- ✅ **APO-024** [governance_perception / young_adult] source=OK
+- ✅ **APO-025** [governance_perception / older_adult] source=OK
+- ✅ **APO-026** [governance_perception / middle_aged] source=OK
+- ✅ **APO-027** [governance_perception / senior_citizen] source=OK
+- ✅ **APO-028** [governance_perception / older_adult] source=OK
+- ✅ **APO-029** [democratic_values / young_adult] source=OK
+- ✅ **APO-030** [democratic_values / young_adult] source=OK
+- ✅ **APO-031** [democratic_values / young_voter] source=OK
+- ✅ **APO-032** [democratic_values / young_adult] source=OK
+- ✅ **APO-033** [democratic_values / young_adult] source=OK
+- ✅ **APO-034** [democratic_values / older_adult] source=OK
+- ✅ **APO-035** [democratic_values / older_adult] source=OK
+- ✅ **APO-036** [democratic_values / senior_citizen] source=OK
+- ✅ **APO-037** [democratic_values / middle_aged] source=OK
+- ✅ **APO-038** [social_media_politics / young_adult] source=OK
+- ✅ **APO-039** [social_media_politics / young_adult] source=OK
+- ✅ **APO-040** [social_media_politics / young_adult] source=OK
+- ✅ **APO-041** [social_media_politics / young_adult] source=OK
+- ✅ **APO-042** [social_media_politics / young_adult] source=OK
+- ✅ **APO-043** [social_media_politics / young_adult] source=OK
+- ✅ **APO-044** [social_media_politics / older_adult] source=OK
+- ✅ **APO-045** [social_media_politics / older_adult] source=OK
+- ✅ **APO-046** [social_media_politics / middle_aged] source=OK
+- ✅ **APO-047** [policy_preferences / young_adult] source=OK
+- ✅ **APO-048** [policy_preferences / young_adult] source=OK
+- ✅ **APO-049** [policy_preferences / young_adult] source=OK
+- ✅ **APO-050** [policy_preferences / young_adult] source=OK
+- ✅ **APO-051** [policy_preferences / young_adult] source=OK
+- ✅ **APO-052** [policy_preferences / older_adult] source=OK
+- ✅ **APO-053** [policy_preferences / middle_aged] source=OK
+- ✅ **APO-054** [policy_preferences / senior_citizen] source=OK
+- ✅ **APO-055** [policy_preferences / older_adult] source=OK
+- ✅ **APO-056** [electoral_participation / young_adult] source=OK
+- ✅ **APO-057** [electoral_participation / young_adult] source=OK
+- ✅ **APO-058** [electoral_participation / young_voter] source=OK
+- ✅ **APO-059** [electoral_participation / young_adult] source=OK
+- ✅ **APO-060** [electoral_participation / young_adult] source=OK
+- ✅ **APO-061** [electoral_participation / older_adult] source=OK
+- ✅ **APO-062** [electoral_participation / senior_citizen] source=OK
+- ✅ **APO-063** [electoral_participation / middle_aged] source=OK
+- ✅ **APO-064** [electoral_participation / older_adult] source=OK
+- ✅ **APO-065** [electoral_participation / senior_citizen] source=OK
+- ✅ **APO-066** [institutional_confidence / young_adult] source=OK
+- ✅ **APO-067** [institutional_confidence / young_adult] source=OK
+- ✅ **APO-068** [institutional_confidence / young_adult] source=OK
+- ✅ **APO-069** [institutional_confidence / young_adult] source=OK
+- ✅ **APO-070** [institutional_confidence / older_adult] source=OK
+- ✅ **APO-071** [institutional_confidence / middle_aged] source=OK
+- ✅ **APO-072** [institutional_confidence / senior_citizen] source=OK
+- ✅ **APO-073** [institutional_confidence / older_adult] source=OK
+- ✅ **APO-074** [institutional_confidence / senior_citizen] source=OK
+- ✅ **APO-075** [protest_engagement / young_adult] source=OK
+- ✅ **APO-076** [protest_engagement / young_adult] source=OK
+- ✅ **APO-077** [protest_engagement / young_voter] source=OK
+- ✅ **APO-078** [protest_engagement / young_adult] source=OK
+- ✅ **APO-079** [protest_engagement / older_adult] source=OK
+- ✅ **APO-080** [protest_engagement / senior_citizen] source=OK
+- ✅ **APO-081** [protest_engagement / older_adult] source=OK
+- ✅ **APO-082** [protest_engagement / middle_aged] source=OK
+- ✅ **APO-083** [political_knowledge / young_adult] source=OK
+- ✅ **APO-084** [political_knowledge / young_adult] source=OK
+- ✅ **APO-085** [political_knowledge / young_adult] source=OK
+- ✅ **APO-086** [political_knowledge / young_adult] source=OK
+- ✅ **APO-087** [political_knowledge / young_adult] source=OK
+- ✅ **APO-088** [political_knowledge / older_adult] source=OK
+- ✅ **APO-089** [political_knowledge / middle_aged] source=OK
+- ✅ **APO-090** [political_knowledge / senior_citizen] source=OK
+- ✅ **APO-091** [political_knowledge / older_adult] source=OK
+- ✅ **APO-092** [media_trust / young_adult] source=OK
+- ✅ **APO-093** [media_trust / young_adult] source=OK
+- ✅ **APO-094** [media_trust / young_adult] source=OK
+- ✅ **APO-095** [media_trust / young_adult] source=OK
+- ✅ **APO-096** [media_trust / older_adult] source=OK
+- ✅ **APO-097** [media_trust / middle_aged] source=OK
+- ✅ **APO-098** [media_trust / senior_citizen] source=OK
+- ✅ **APO-099** [media_trust / older_adult] source=OK
+- ✅ **APO-100** [media_trust / senior_citizen] source=OK

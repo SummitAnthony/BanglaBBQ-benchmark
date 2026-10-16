@@ -1,0 +1,24 @@
+# BanglaBBQ requirements.
+#
+# The core scripts need only the Python 3.9+ standard library, with no packages to install:
+#   reproduce.py, construction/*.py, annotation/make_tasks.py,
+#   evaluation/eval_banglabbq.py, evaluation/score_banglabbq.py,
+#   evaluation/dt_tm/make_dt_tm_sample.py
+#
+# The packages below are needed only for the parts named in each group. No versions are
+# pinned: the exact versions the results were produced with were not recorded (tested
+# versions unknown).
+
+# bbq_dt_tm/pipeline/ (rebuilds the DT/TM files with BBQ's generation script):
+pandas
+numpy
+
+# evaluation/notebooks/*.ipynb and evaluation/unknown_wording/unknown_wording_test.py
+# (local Qwen3 runs on a GPU). transformers 4.51 or later is needed for Qwen3; the notebooks
+# also use tqdm and huggingface_hub, which transformers installs.
+torch
+transformers>=4.51
+accelerate
+
+# construction/development_scripts/tests/ (one unit test of a development script):
+# pytest

@@ -1,0 +1,82 @@
+# BanglaBBQ Mental_health_status — Validation Report
+
+- Templates examined: **71**
+- **PASS: 71**  |  FAIL: 0
+- Passing source domains: {'archive.dhakatribune.com': 3, 'ncbi.nlm.nih.gov': 16, 'pmc.ncbi.nlm.nih.gov': 24, 'tbsnews.net': 3, 'thedailystar.net': 8, 'newagebd.net': 3, 'link.springer.com': 3, 'cambridge.org': 6, 'bmcpsychiatry.biomedcentral.com': 1, 'researchgate.net': 2, 'journals.plos.org': 1, 'dhakatribune.com': 1}
+- Dedup flags: 0
+
+- Advisory warnings (non-blocking): 0
+
+## Per-template results
+
+- ✅ **MEN-101** [family / depressed] source=OK
+- ✅ **MEN-102** [family / depressed] source=OK
+- ✅ **MEN-103** [family / depressed] source=OK
+- ✅ **MEN-104** [education / depressed] source=OK
+- ✅ **MEN-105** [education / depressed] source=OK
+- ✅ **MEN-106** [workplace / depressed] source=OK
+- ✅ **MEN-107** [workplace / depressed] source=OK
+- ✅ **MEN-108** [community / depressed] source=OK
+- ✅ **MEN-109** [workplace / anxious] source=OK
+- ✅ **MEN-110** [education / anxious] source=OK
+- ✅ **MEN-111** [family / anxious] source=OK
+- ✅ **MEN-201** [social / depressed] source=OK
+- ✅ **MEN-202** [family / depressed] source=OK
+- ✅ **MEN-203** [community / depressed] source=OK
+- ✅ **MEN-204** [social / anxious] source=OK
+- ✅ **MEN-205** [online / depressed] source=OK
+- ✅ **MEN-206** [family / depressed] source=OK
+- ✅ **MEN-207** [school / depressed] source=OK
+- ✅ **MEN-208** [university / depressed] source=OK
+- ✅ **MEN-301** [housing / mentallyIll] source=OK
+- ✅ **MEN-302** [childcare / mentallyIll] source=OK
+- ✅ **MEN-303** [employment / schizophrenic] source=OK
+- ✅ **MEN-304** [healthcare / mentallyIll] source=OK
+- ✅ **MEN-305** [public_space / mentallyIll] source=OK
+- ✅ **MEN-306** [social / mentallyIll] source=OK
+- ✅ **MEN-307** [religion / mentallyIll] source=OK
+- ✅ **MEN-308** [neighbourhood / mentallyIll] source=OK
+- ✅ **MEN-309** [workplace / mentallyIll] source=OK
+- ✅ **MEN-310** [social_visit / mentallyIll] source=OK
+- ✅ **MEN-311** [community / mentallyIll] source=OK
+- ✅ **MEN-401** [family / mentallyIll] source=OK
+- ✅ **MEN-402** [family / mentallyIll] source=OK
+- ✅ **MEN-403** [healthcare / schizophrenic] source=OK
+- ✅ **MEN-404** [community / mentallyIll] source=OK
+- ✅ **MEN-405** [healthcare / mentallyIll] source=OK
+- ✅ **MEN-406** [family / mentallyIll] source=OK
+- ✅ **MEN-407** [healthcare / mentallyIll] source=OK
+- ✅ **MEN-408** [healthcare / schizophrenic] source=OK
+- ✅ **MEN-409** [healthcare / mentallyIll] source=OK
+- ✅ **MEN-410** [community / mentallyIll] source=OK
+- ✅ **MEN-411** [family / schizophrenic] source=OK
+- ✅ **MEN-412** [healthcare / schizophrenic] source=OK
+- ✅ **MEN-413** [community / mentallyIll] source=OK
+- ✅ **MEN-501** [marriage / mentallyIll] source=OK
+- ✅ **MEN-502** [community / mentallyIll] source=OK
+- ✅ **MEN-503** [family / mentallyIll] source=OK
+- ✅ **MEN-504** [marriage / mentallyIll] source=OK
+- ✅ **MEN-506** [legal / mentallyIll] source=OK
+- ✅ **MEN-507** [parenting / depressed] source=OK
+- ✅ **MEN-508** [marriage / mentallyIll] source=OK
+- ✅ **MEN-601** [workplace / mentallyIll] source=OK
+- ✅ **MEN-602** [hiring / mentallyIll] source=OK
+- ✅ **MEN-603** [leadership / mentallyIll] source=OK
+- ✅ **MEN-604** [pay / mentallyIll] source=OK
+- ✅ **MEN-605** [legal / mentallyIll] source=OK
+- ✅ **MEN-606** [finance / mentallyIll] source=OK
+- ✅ **MEN-607** [community / mentallyIll] source=OK
+- ✅ **MEN-701** [family / mentallyIll] source=OK
+- ✅ **MEN-702** [marriage / mentallyIll] source=OK
+- ✅ **MEN-703** [healthcare / mentallyIll] source=OK
+- ✅ **MEN-704** [community / mentallyIll] source=OK
+- ✅ **MEN-705** [family / mentallyIll] source=OK
+- ✅ **MEN-706** [help_seeking / depressed] source=OK
+- ✅ **MEN-707** [help_seeking / depressed] source=OK
+- ✅ **MEN-708** [healthcare / depressed] source=OK
+- ✅ **MEN-709** [community / mentallyIll] source=OK
+- ✅ **MEN-710** [community / mentallyIll] source=OK
+- ✅ **MEN-711** [community / mentallyIll] source=OK
+- ✅ **MEN-712** [marriage / mentallyIll] source=OK
+- ✅ **MEN-713** [family / mentallyIll] source=OK
+- ✅ **MEN-715** [help_seeking / depressed] source=OK

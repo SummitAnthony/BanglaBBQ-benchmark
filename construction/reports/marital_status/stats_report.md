@@ -1,0 +1,213 @@
+> **Note for readers of the release.** Written during construction, before the later citation fix of two
+> templates (`construction/README.md`, "Per category"). The released data has 57 distinct source URLs on 19
+> domains, with thedailystar.net grounding 26 templates and dhakatribune.com 6 (not 25 and 7), as in
+> `validation_report.md`; the other counts are unchanged. The release's source counts are in
+> `construction/README.md` ("Per category") and paper §4.2.
+
+# Template summary — templates/validated.jsonl
+
+- Template count: **100**  (cap 100)  -> projected records: **800**
+- Duplicate template_id: none
+
+## Per target group (stereotyped_groups)
+  - divorced women                                20
+  - widows                                        18
+  - married women                                 18
+  - unmarried women                               15
+  - unmarried men                                 12
+  - deserted women                                6
+  - women in polygamous marriages                 5
+  - first wives in polygamous marriages           4
+  - unmarried people                              1
+  - second wives                                  1
+
+## Per subcategory
+  - hiring                         5
+  - social exclusion               4
+  - maintenance                    4
+  - remarriage                     4
+  - property rights                3
+  - promotion                      3
+  - inheritance                    3
+  - housing                        2
+  - workplace commitment           2
+  - tenancy restrictions           2
+  - social judgment                2
+  - family burden                  2
+  - dower                          2
+  - child support                  2
+  - workplace treatment            2
+  - mental health                  2
+  - healthcare access              2
+  - employment                     1
+  - blamed for failed marriage     1
+  - morality judgment              1
+  - blamed for husband's death     1
+  - social authority               1
+  - abandonment                    1
+  - unequal treatment              1
+  - job security                   1
+  - financial responsibility       1
+  - community trust                1
+  - denial of adult roles          1
+  - matrimonial property           1
+  - post-divorce compensation      1
+  - child custody                  1
+  - destitution                    1
+  - dower and maintenance          1
+  - property                       1
+  - financial distrust             1
+  - financial dependency           1
+  - forced resignation             1
+  - dismissal                      1
+  - maternity benefits             1
+  - pay                            1
+  - training                       1
+  - role assignment                1
+  - bank loan                      1
+  - community role                 1
+  - leadership                     1
+  - appraisal                      1
+  - social standing                1
+  - social acceptance              1
+  - religious exclusion            1
+  - children's stigma              1
+  - access to services             1
+  - social status                  1
+  - emotional toll                 1
+  - family authority               1
+  - social respect                 1
+  - marriage pressure              1
+  - social maturity                1
+  - moral suspicion                1
+  - community gossip               1
+  - family shame                   1
+  - problem dismissal              1
+  - welfare access                 1
+  - economic insecurity            1
+  - institutional support          1
+  - livelihood                     1
+  - exploitation                   1
+  - paid work                      1
+  - mobility                       1
+  - public harassment              1
+  - personal safety                1
+  - sexual harassment              1
+
+## Per target_label
+  - unmarried            28
+  - divorced             20
+  - widowed              18
+  - married              18
+  - polygamous           10
+  - deserted             6
+
+## Per source domain (over-concentration flag if one dominates)
+  - thedailystar.net                    25  (25%)
+  - tbsnews.net                         16  (16%)
+  - hrw.org                             11  (11%)
+  - dhakatribune.com                    7  (7%)
+  - link.springer.com                   5  (5%)
+  - documents1.worldbank.org            5  (5%)
+  - asiapacific.unwomen.org             4  (4%)
+  - pmc.ncbi.nlm.nih.gov                4  (4%)
+  - newagebd.net                        4  (4%)
+  - bigd.bracu.ac.bd                    4  (4%)
+  - academia.edu                        3  (3%)
+  - ncbi.nlm.nih.gov                    3  (3%)
+  - rsisinternational.org               2  (2%)
+  - en.prothomalo.com                   2  (2%)
+  - voxdev.org                          1  (1%)
+  - unb.com.bd                          1  (1%)
+  - acspublisher.com                    1  (1%)
+  - girlsnotbrides.org                  1  (1%)
+  - docs.iza.org                        1  (1%)
+
+## Scenario density (target_label × subcategory)
+  - married        / hiring                   4
+  - divorced       / maintenance              3
+  - widowed        / inheritance              3
+  - married        / workplace commitment     2
+  - married        / promotion                2
+  - unmarried      / tenancy restrictions     2
+  - widowed        / remarriage               2
+  - polygamous     / child support            2
+  - married        / workplace treatment      2
+  - divorced       / housing                  1
+  - divorced       / employment               1
+  - divorced       / social exclusion         1
+  - widowed        / social exclusion         1
+  - widowed        / property rights          1
+  - unmarried      / housing                  1
+  - polygamous     / social judgment          1
+  - divorced       / property rights          1
+  - divorced       / blamed for failed marriage 1
+  - divorced       / morality judgment        1
+  - widowed        / blamed for husband's death 1
+  - widowed        / social authority         1
+  - unmarried      / family burden            1
+  - unmarried      / social exclusion         1
+  - polygamous     / abandonment              1
+  - polygamous     / unequal treatment        1
+  - polygamous     / property rights          1
+  - married        / job security             1
+  - unmarried      / financial responsibility 1
+  - unmarried      / community trust          1
+  - unmarried      / denial of adult roles    1
+  - divorced       / matrimonial property     1
+  - divorced       / dower                    1
+  - divorced       / post-divorce compensation 1
+  - divorced       / child custody            1
+  - widowed        / dower                    1
+  - polygamous     / destitution              1
+  - polygamous     / dower and maintenance    1
+  - polygamous     / property                 1
+  - unmarried      / financial distrust       1
+  - unmarried      / financial dependency     1
+  - married        / forced resignation       1
+  - married        / dismissal                1
+  - married        / maternity benefits       1
+  - married        / pay                      1
+  - married        / training                 1
+  - married        / role assignment          1
+  - married        / bank loan                1
+  - unmarried      / hiring                   1
+  - unmarried      / promotion                1
+  - unmarried      / community role           1
+  - unmarried      / leadership               1
+  - unmarried      / appraisal                1
+  - divorced       / social standing          1
+  - divorced       / mental health            1
+  - divorced       / social acceptance        1
+  - divorced       / healthcare access        1
+  - widowed        / religious exclusion      1
+  - widowed        / children's stigma        1
+  - widowed        / mental health            1
+  - widowed        / access to services       1
+  - widowed        / healthcare access        1
+  - unmarried      / social status            1
+  - polygamous     / emotional toll           1
+  - unmarried      / family authority         1
+  - unmarried      / social respect           1
+  - unmarried      / marriage pressure        1
+  - unmarried      / social maturity          1
+  - unmarried      / moral suspicion          1
+  - unmarried      / community gossip         1
+  - unmarried      / family shame             1
+  - unmarried      / social judgment          1
+  - unmarried      / problem dismissal        1
+  - deserted       / welfare access           1
+  - deserted       / remarriage               1
+  - deserted       / social exclusion         1
+  - deserted       / economic insecurity      1
+  - deserted       / maintenance              1
+  - deserted       / institutional support    1
+  - widowed        / livelihood               1
+  - widowed        / family burden            1
+  - divorced       / exploitation             1
+  - divorced       / remarriage               1
+  - unmarried      / paid work                1
+  - unmarried      / mobility                 1
+  - unmarried      / public harassment        1
+  - widowed        / personal safety          1
+  - divorced       / sexual harassment        1

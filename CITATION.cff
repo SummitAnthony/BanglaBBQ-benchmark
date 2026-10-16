@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use BanglaBBQ, please cite it as below."
+title: "BanglaBBQ: A Bias Benchmark for Question Answering in the Bangladeshi Context"
+type: dataset
+authors:
+  - family-names: Gomes
+    given-names: Sumit Anthony
+    affiliation: BRAC University
+  - family-names: Tasnia
+    given-names: Taeeba
+    affiliation: BRAC University
+  - family-names: Rahman
+    given-names: Yasin
+    affiliation: BRAC University
+  - family-names: Suhita
+    given-names: Faiza Nooren
+    affiliation: BRAC University
+repository-code: "https://github.com/SummitAnthony/BanglaBBQ-benchmark"
+license:
+  - CC-BY-4.0
+  - MIT
+keywords:
+  - bias
+  - question answering
+  - Bangla
+  - Bangladesh
+  - benchmark

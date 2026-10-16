@@ -1,0 +1,111 @@
+# BanglaBBQ Marital_status — Validation Report
+
+- Templates examined: **100**
+- **PASS: 97**  |  FAIL: 3
+- Passing source domains: {'thedailystar.net': 26, 'asiapacific.unwomen.org': 4, 'tbsnews.net': 16, 'hrw.org': 11, 'rsisinternational.org': 2, 'dhakatribune.com': 6, 'en.prothomalo.com': 2, 'pmc.ncbi.nlm.nih.gov': 4, 'newagebd.net': 4, 'voxdev.org': 1, 'link.springer.com': 5, 'unb.com.bd': 1, 'acspublisher.com': 1, 'girlsnotbrides.org': 1, 'documents1.worldbank.org': 5, 'bigd.bracu.ac.bd': 4, 'docs.iza.org': 1, 'ncbi.nlm.nih.gov': 3}
+- Dedup flags: 1
+
+- Advisory warnings (non-blocking): 9
+
+## Per-template results
+
+- ✅ **MAR-001** [housing / divorced] source=OK
+- ✅ **MAR-002** [employment / divorced] source=OK
+- ✅ **MAR-003** [social exclusion / divorced] source=OK
+- ✅ **MAR-004** [social exclusion / widowed] source=OK
+- ✅ **MAR-005** [property rights / widowed] source=OK
+- ✅ **MAR-006** [workplace commitment / married] source=OK
+- ✅ **MAR-007** [promotion / married] source=OK
+- ✅ **MAR-008** [housing / unmarried] source=OK
+- ✅ **MAR-009** [tenancy restrictions / unmarried] source=OK
+- ✅ **MAR-010** [social judgment / polygamous] source=OK  ⚠️ biased-direction: target descriptor not literally in disambig_sentence (verify manually)
+- ✅ **MAR-101** [property rights / divorced] source=OK
+- ✅ **MAR-102** [maintenance / divorced] source=OK
+- ✅ **MAR-103** [blamed for failed marriage / divorced] source=OK
+- ✅ **MAR-104** [morality judgment / divorced] source=OK
+- ✅ **MAR-105** [blamed for husband's death / widowed] source=OK
+- ✅ **MAR-106** [remarriage / widowed] source=OK
+- ✅ **MAR-107** [social authority / widowed] source=OK
+- ✅ **MAR-108** [family burden / unmarried] source=OK
+- ✅ **MAR-109** [social exclusion / unmarried] source=OK
+- ✅ **MAR-110** [abandonment / polygamous] source=OK
+- ✅ **MAR-111** [unequal treatment / polygamous] source=OK
+- ✅ **MAR-112** [property rights / polygamous] source=OK
+- ✅ **MAR-201** [hiring / married] source=OK
+- ✅ **MAR-202** [job security / married] source=OK
+- ✅ **MAR-203** [promotion / married] source=OK
+- ✅ **MAR-204** [workplace commitment / married] source=OK  ⚠️ biased-direction: target descriptor not literally in disambig_sentence (verify manually)
+- ✅ **MAR-205** [financial responsibility / unmarried] source=OK
+- ✅ **MAR-206** [tenancy restrictions / unmarried] source=OK
+- ✅ **MAR-207** [community trust / unmarried] source=OK
+- ✅ **MAR-208** [denial of adult roles / unmarried] source=OK
+- ✅ **MAR-301** [matrimonial property / divorced] source=OK
+- ✅ **MAR-302** [maintenance / divorced] source=OK
+- ✅ **MAR-303** [dower / divorced] source=OK
+- ✅ **MAR-304** [post-divorce compensation / divorced] source=OK
+- ✅ **MAR-305** [child custody / divorced] source=OK
+- ✅ **MAR-306** [maintenance / divorced] source=OK  _(dedup: near-duplicate of MAR-302 (same target/subcat + same opening))_
+- ✅ **MAR-307** [inheritance / widowed] source=OK
+- ✅ **MAR-308** [remarriage / widowed] source=OK
+- ✅ **MAR-309** [dower / widowed] source=OK
+- ✅ **MAR-310** [inheritance / widowed] source=OK
+- ✅ **MAR-311** [inheritance / widowed] source=OK
+- ✅ **MAR-312** [destitution / polygamous] source=OK  ⚠️ biased-direction: target descriptor not literally in disambig_sentence (verify manually)
+- ✅ **MAR-313** [child support / polygamous] source=OK  ⚠️ biased-direction: target descriptor not literally in disambig_sentence (verify manually)
+- ✅ **MAR-314** [child support / polygamous] source=OK  ⚠️ biased-direction: target descriptor not literally in disambig_sentence (verify manually)
+- ✅ **MAR-315** [dower and maintenance / polygamous] source=OK  ⚠️ biased-direction: target descriptor not literally in disambig_sentence (verify manually)
+- ✅ **MAR-316** [property / polygamous] source=OK
+- ✅ **MAR-317** [financial distrust / unmarried] source=OK
+- ✅ **MAR-318** [financial dependency / unmarried] source=OK
+- ✅ **MAR-401** [hiring / married] source=OK
+- ✅ **MAR-402** [hiring / married] source=OK
+- ✅ **MAR-403** [forced resignation / married] source=OK
+- ✅ **MAR-404** [dismissal / married] source=OK
+- ✅ **MAR-405** [maternity benefits / married] source=OK
+- ✅ **MAR-406** [pay / married] source=OK
+- ✅ **MAR-407** [training / married] source=OK
+- ✅ **MAR-408** [workplace treatment / married] source=OK
+- ✅ **MAR-409** [hiring / married] source=OK
+- ✅ **MAR-410** [workplace treatment / married] source=OK
+- ❌ **MAR-411** — DEAD/BLOCKED (HTTP 403)
+- ✅ **MAR-412** [bank loan / married] source=OK
+- ❌ **MAR-413** — DEAD/BLOCKED (HTTP 403)
+- ❌ **MAR-414** — DEAD/BLOCKED (HTTP 403)
+- ✅ **MAR-415** [community role / unmarried] source=OK
+- ✅ **MAR-416** [leadership / unmarried] source=OK
+- ✅ **MAR-417** [appraisal / unmarried] source=OK
+- ✅ **MAR-501** [social standing / divorced] source=OK
+- ✅ **MAR-502** [mental health / divorced] source=OK
+- ✅ **MAR-503** [social acceptance / divorced] source=OK
+- ✅ **MAR-504** [healthcare access / divorced] source=OK
+- ✅ **MAR-505** [religious exclusion / widowed] source=OK
+- ✅ **MAR-506** [children's stigma / widowed] source=OK
+- ✅ **MAR-507** [mental health / widowed] source=OK
+- ✅ **MAR-508** [access to services / widowed] source=OK
+- ✅ **MAR-509** [healthcare access / widowed] source=OK
+- ✅ **MAR-510** [social status / unmarried] source=OK
+- ✅ **MAR-511** [emotional toll / polygamous] source=OK  ⚠️ biased-direction: target descriptor not literally in disambig_sentence (verify manually)
+- ✅ **MAR-601** [family authority / unmarried] source=OK
+- ✅ **MAR-602** [social respect / unmarried] source=OK
+- ✅ **MAR-603** [marriage pressure / unmarried] source=OK
+- ✅ **MAR-604** [social maturity / unmarried] source=OK
+- ✅ **MAR-605** [moral suspicion / unmarried] source=OK
+- ✅ **MAR-606** [community gossip / unmarried] source=OK
+- ✅ **MAR-607** [family shame / unmarried] source=OK  ⚠️ biased-direction: target descriptor not literally in disambig_sentence (verify manually)
+- ✅ **MAR-608** [social judgment / unmarried] source=OK  ⚠️ biased-direction: target descriptor not literally in disambig_sentence (verify manually)
+- ✅ **MAR-609** [problem dismissal / unmarried] source=OK
+- ✅ **MAR-701** [welfare access / deserted] source=OK
+- ✅ **MAR-702** [remarriage / deserted] source=OK
+- ✅ **MAR-703** [social exclusion / deserted] source=OK
+- ✅ **MAR-704** [economic insecurity / deserted] source=OK
+- ✅ **MAR-705** [maintenance / deserted] source=OK
+- ✅ **MAR-706** [institutional support / deserted] source=OK
+- ✅ **MAR-707** [livelihood / widowed] source=OK
+- ✅ **MAR-708** [family burden / widowed] source=OK
+- ✅ **MAR-709** [exploitation / divorced] source=OK
+- ✅ **MAR-710** [paid work / unmarried] source=OK
+- ✅ **MAR-711** [mobility / unmarried] source=OK
+- ✅ **MAR-712** [remarriage / divorced] source=OK
+- ✅ **MAR-801** [public harassment / unmarried] source=OK
+- ✅ **MAR-802** [personal safety / widowed] source=OK
+- ✅ **MAR-803** [sexual harassment / divorced] source=OK

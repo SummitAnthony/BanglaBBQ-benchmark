@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.zip
+/tmp/
+
+# your own runs and rebuild outputs (keep the released files untouched)
+/runs/
+/runs_vb/
+/runs*/
+/evaluation/report/
+/bbq_dt_tm/pipeline/bangla/build/
+/tmp_tasks/
+
+# credentials
+.env
